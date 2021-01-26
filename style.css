@@ -1,0 +1,61 @@
+html,
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.start-section{
+    margin: 1rem; 
+   
+}
+
+.start-section > h2 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #de354c;
+}
+
+.start-section > p {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #932432;
+}
+
+.shapes-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    
+}
+
+
+#red,
+#purple,
+#green {
+  height: 45%;
+  width: 45%;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#purple {
+  background-image: url(purple.png);
+
+}
+
+#green {
+  background-image: url(green.png);
+  align-self: flex-end;
+   
+}
+
+#red {
+  background-image: url(red.png);
+  
+}
