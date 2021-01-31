@@ -1,0 +1,17 @@
+@media only screen and (min-width: 700px) {
+.start-section{
+    margin: 2rem;
+}
+
+
+.start-section > h2 {
+    font-size: 8rem;
+}
+
+
+.start-section > p {
+    font-size: 4rem;
+}
+
+
+}
