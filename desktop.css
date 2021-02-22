@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
   .start-section {
     margin: 2rem;
     height: 100%;
@@ -60,19 +60,25 @@
   }
 
   .projects-section {
-    margin: 2rem;
-    height: 100%;
+    /* margin: 2rem; */
     max-width: 60rem;
   }
 
-  .projcets-section > h2 {
+  .projects-section > h2 {
     font-size: 6rem;
   }
 
   .project-wrapper {
     max-width: 60rem;
+    height: 100%;
     margin: 2rem;
   }
+
+  
+
+
+
+
 
   .contact-section {
     margin: 2rem;
@@ -96,6 +102,5 @@
   .logo-wrapper > div {
     height: 7rem;
     width: 7rem;
-    
   }
 }
