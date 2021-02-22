@@ -1,17 +1,101 @@
 @media only screen and (min-width: 700px) {
-.start-section{
+  .start-section {
     margin: 2rem;
-}
+    height: 100%;
+    max-width: 60rem;
+  }
 
-
-.start-section > h2 {
+  .start-section > h2 {
     font-size: 8rem;
-}
+  }
 
-
-.start-section > p {
+  .start-section > p {
     font-size: 4rem;
-}
+  }
 
+  .shapes-wrapper {
+    margin-top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  #red,
+  #purple,
+  #green {
+    height: 15rem;
+    width: 15rem;
+    align-self: start;
+  }
+
+  #purple > p {
+    margin-top: -10%;
+    margin-left: -4%;
+    font-size: 2.5rem;
+  }
+
+  #green > p {
+    margin-top: -20%;
+    margin-left: -3%;
+    font-size: 2.5rem;
+  }
+
+  #red > p {
+    margin-top: -25%;
+    margin-left: -3%;
+    font-size: 2.5rem;
+  }
+
+  .about-section {
+    margin: 2rem;
+    height: 100%;
+    max-width: 60rem;
+  }
+
+  .about-section > h2 {
+    font-size: 6rem;
+  }
+
+  .about-section > p {
+    font-size: 2.2rem;
+  }
+
+  .projects-section {
+    margin: 2rem;
+    height: 100%;
+    max-width: 60rem;
+  }
+
+  .projcets-section > h2 {
+    font-size: 6rem;
+  }
+
+  .project-wrapper {
+    max-width: 60rem;
+    margin: 2rem;
+  }
+
+  .contact-section {
+    margin: 2rem;
+    height: 100%;
+    max-width: 60rem;
+  }
+
+  .contact-section > h2 {
+    font-size: 6rem;
+  }
+
+  .contact-section > p {
+    font-size: 2.2rem;
+  }
+
+  .logo-wrapper {
+    max-width: 60rem;
+    margin: 2rem;
+  }
+
+  .logo-wrapper > div {
+    height: 7rem;
+    width: 7rem;
+    
+  }
 }

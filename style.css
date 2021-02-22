@@ -5,16 +5,22 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-    width: 100%;
-    height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; 
 }
 
 /* MOBILE */
 
-.start-section{
-    margin: 1rem; 
-    display:flex;
-     flex-direction: column; 
+.start-section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+   height: 100%; 
+  max-width: 30rem;
 }
 
 .start-section > h2 {
@@ -32,19 +38,18 @@ body {
 }
 
 .shapes-wrapper {
-     display: flex; 
-    flex-direction: column;
-    align-items: center;  
-    height: 20rem;
-    width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  width: auto;
 }
-
 
 #red,
 #purple,
 #green {
   display: flex;
-  flex-flow: wrap; 
+  flex-flow: wrap;
   justify-content: center;
   align-items: center;
   height: 15rem;
@@ -57,14 +62,11 @@ body {
 #purple {
   background-image: url(purple.png);
   align-self: start;
-  
-  
 }
 
 #green {
   background-image: url(green.png);
   align-self: center;
-
 }
 
 #red {
@@ -92,4 +94,110 @@ body {
   font-size: 1.9rem;
   color: #f3f3f3;
   font-weight: 100;
+}
+
+.about-section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 30rem;
+}
+
+.about-section > h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #3c1874;
+  margin: 0.5rem;
+}
+
+.about-section > p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #51417D;
+  margin: 0.7rem;
+}
+
+.projects-section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 100%;
+  max-width: 30rem;
+}
+
+.projects-section > h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #283747;
+  margin: 0.5rem;
+}
+
+.project-wrapper > h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #283747;
+  margin: 1rem;
+  max-width: 30rem;
+}
+
+
+.project-img {
+  background-image: url("spaceexplorer.png");
+  height: 142.5px;
+  width: 310px;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-section {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 30rem;
+}
+
+.contact-section > h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #de354c;
+  margin: 0.5rem;
+}
+
+.contact-section > p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #932432;
+  margin: 0.7rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  max-width: 30rem;
+}
+
+.logo-wrapper > div {
+  height: 5rem;
+  width: 5rem;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gh {
+  background-image: url(github-logo.png);
+}
+.ig {
+  background-image: url(instagram-logo.png);
+}
+.li {
+  background-image: url(linkedin-logo.png);
 }
