@@ -26,7 +26,6 @@ function start() {
   typingEffectProject();
   fadeIn();
   let scroll = new SmoothScroll('a[href*="#"]');
-  console.log("hello?");
 }
 
 function fadeIn() {
