@@ -1,127 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Felicia Segerholm</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="desktop.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id = "startSection" class="start-section">
-      <h2>Hej!</h2>
-      <p>
-        Jag heter Felicia och studerar till Front End Developer vid
-        Medieinstitutet i Göteborg.
-      </p>
-      <div class="shapes-wrapper">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Felicia Segerholm</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="tablet.css" />
+  <link rel="stylesheet" href="desktop.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+  <div id="startSection" class="start-section">
+    <h2>Hej!</h2>
+    <p>
+      Jag heter Felicia och studerar till Front End Developer vid
+      Medieinstitutet i Göteborg.
+    </p>
+    <div class="shapes-wrapper">
+      <a data-scroll href="#about">
         <div id="purple">
           <p>Om mig</p>
         </div>
-        <div id="green"><p>Projekt</p></div>
-        <div id="red"><p>Kontakt</p></div>
-      </div>
-    </div>
-
-    <div class="about-section">
-      <h2>Om mig</h2>
-      <p>Hösten 2020 började jag studera till Front End Developer.</p>
-
-      <p>
-        Det jag gillar mest med webbutveckling är att få vara en problemlösare,
-        utmana sig själv (för oj vad utmanande det är ibland!) och att det
-        aldrig bara finns en lösning.
-      </p>
-
-      <p>Jag har också...</p>
-
-      <p id="iHaveAlso"></p>
-    </div>
-
-    <div class="projects-section">
-      <h2>Projekt</h2>
-      <p> Här kommer det såt en text lololololo</p>
-      <div class = "project-slider">
-        
-        <div class="container">
-    
-          <s id="s1"></s> 
-          <s id="s2"></s>
-          <s id="s3"></s>
-          <s id="s4"></s>
-        
-          <div class="slider">
-            <div class = "image1" style="background-image: url(sing-sing.png) ;">
-              <div class = "textbox">
-              <h2>Sing Sing</h2>
-            <p>Ett projekt skapat i React Native, februari 2021.
-               Appen är inspirerad av sällskapsspelet Sing Sing skapat av Ninja Print. 
-              </p>
-              <a class = "link" href="https://github.com/feliciaseg/react-native-app" target="_blank">Github-repo </a>
-            </div>
-            </div>
-            <div  class = "image2" style="background-image: url(digital-museum.png) ;">
-              <div class = "textbox">
-              <h2>Digital Museum</h2>
-              <p>Ett digitalt museum där man kan söka, upptäcka, och lära sig mer om olika konstverk. 
-                Projektet är utvecklat i React och vi använde Rijksmuseum API.</p>
-            <a class = "link" href="https://github.com/feliciaseg/digital-museum" target="_blank">Github-repo</a>
-              </div>
-            </div>
-            <div class = "image3" style="background-image: url(space-explorer.png) ;">
-              <div class = "textbox">
-              <h2>Space Explorer</h2>
-              <p>Ett spel utvecklat i p5.js med objekt-orienterad programmering, januari 2021. 
-                I en grupp på 4 utvecklade vi Space Explorer, där målet är att överleva rymdens alla faror så länge du kan. 
-              </p><a class = "link" href="https://github.com/feliciaseg/space-explorer" target="_blank">Github-repo</a>
-               
-    </div>
-            </div>
-            <div class = "image4" style="background-image: url(digit-dash.png) ;">
-              <div class = "textbox">
-              <h2>Digit Dash</h2>
-            <p>I kursen 'Projektarbete med agila metoder' fick vi uppdraget att utveckla ett 'nummer-gissningsspel'. 
-               Under hela projektet arbetade vi efter agila principer.
-               </p><a class = "link" href="https://github.com/feliciaseg/digit-dash" target="_blank">Github-repo</a>
-    </div>
-            </div>
-          </div>
-          
-          <div class="prevNext">
-            <div><a href="#s4" ></a><a href="#s2"></a></div>
-            <div><a href="#s1"></a><a href="#s3"></a></div>
-            <div><a href="#s2"></a><a href="#s4"></a></div>
-            <div><a href="#s3"></a><a href="#s1"></a></div>
-          </div>
-        
-
-        
+      </a>
+      <a data-scroll href="#projects">
+        <div id="green">
+          <p>Projekt</p>
         </div>
+      </a>
+      <a data-scroll href="#contact">
+        <div id="red">
+          <p>Kontakt</p>
+        </div>
+      </a>
     </div>
+  </div>
+
+  <div id="about" class="about-section">
+    <h2>Om mig</h2>
+    <p>Hösten 2020 började jag studera till Front End Developer.</p>
+
+    <p>
+      Det jag gillar mest med webbutveckling är att få vara en problemlösare,
+      utmana sig själv (för oj vad utmanande det är ibland!) och att det
+      aldrig bara finns en lösning.
+    </p>
+
+    <p>Innan jag började plugga till Front End Developer har jag bland annat studerat ett halvår i Frankrike, samt
+      jobbat 3,5 år med barn och unga i Svenska Kyrkan. Därifrån har jag med mig många erfarenheter som jag är säker att
+      jag kommer ha nytta av även i mitt yrke som webbutvecklare.</p>
+  </div>
+
+  <div id="projects" class="projects-section">
+    <h2>Projekt</h2>
+    <p class="bigger"> Under min tid på Medieinstitutet<br> har jag fått kunskaper inom... <span id="typed-text">
+      </span> </p>
+
+    <img class="project-img" src="./images/sing-sing.png">
+    <h3>Sing Sing</h3>
+    <p>Ett projekt skapat i React Native, februari 2021.
+      Appen är inspirerad av sällskapsspelet Sing Sing skapat av Ninja Print. <br>
+      <a class="gh-link" href="https://github.com/feliciaseg/react-native-app" target="_blank">Github-repo</a>
+    </p>
+
+    <img class="project-img" src="./images/digit-dash.png">
+    <h3> Digit Dash</h3>
+    <p>I kursen 'Projektarbete med agila metoder' fick vi uppdraget att utveckla ett 'nummer-gissningsspel'.
+      Under hela projektet arbetade vi efter agila principer. <br>
+      <a class="gh-link" href="https://github.com/feliciaseg/digit-dash" target="_blank">Github-repo</a>
+    </p>
+
+    <img class="project-img" src="./images/digital-museum.png">
+    <h3> Digital Museum </h3>
+    <p>Ett digitalt museum där man kan söka, upptäcka, och lära sig mer om olika konstverk.
+      Projektet är utvecklat i React och vi använde Rijksmuseum API.<br>
+      <a class="gh-link" href="https://github.com/feliciaseg/digital-museum" target="_blank">Github-repo</a>
+    </p>
+
+    <img class="project-img" src="./images/space-explorer.png">
+    <h3> Space Explorer</h3>
+    <p>Ett spel utvecklat i p5.js med objekt-orienterad programmering, januari 2021.
+      I en grupp på 4 utvecklade vi Space Explorer, där målet är att överleva rymdens alla faror så länge du kan.
+      <br><a class="gh-link" href="https://github.com/feliciaseg/space-explorer" target="_blank">Github-repo</a>
+    </p>
 
 
-    </div>
 
-    <div class="contact-section">
-      <h2>Kontakt</h2>
-      <p>
-        Om du vill veta mer om mig, tipsa om en praktikplats (september 2020 är
-        det dags!), se ett mer utförligt CV, diskutera samarbete eller bara ta
-        en kaffe kan du kontakta mig via mail eller via någon av mina sociala
-        medier som finns länkade nedan.<br />
-        Hoppas vi hörs!
-      </p>
-      <div class="logo-wrapper">
-        <div class="gh"></div>
-        <div class="li"></div>
-        <div class="ig"></div>
-      </div>
+
+  </div>
+
+  <div id="contact" class="contact-section">
+    <h2>Kontakt</h2>
+    <p>
+      Om du vill veta mer om mig, tipsa om en praktikplats (september 2020 är
+      det dags!), se ett mer utförligt CV, diskutera samarbete eller bara ta
+      en kaffe kan du kontakta mig via <a href ="mailto:felicia.segerholm@medieinstitutet.se">mail</a> eller via någon av mina sociala
+      medier som finns länkade nedan.<br />
+      Hoppas vi hörs!
+    </p>
+    <div class="logo-wrapper">
+      <a href="https://github.com/feliciaseg" target="_blank"><img class= "logo" src= "./images/github-logo.png"></a>
+      <a href="https://www.linkedin.com/in/felicia-segerholm-15231a1bb" target="_blank"><img class= "logo" src = "./images/linkedin-logo.png"></a>
+      <a href="https://www.instagram.com/feliciasegerhlm/" target="_blank"> <img class= "logo" src= "./images/instagram-logo.png"> </a>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
