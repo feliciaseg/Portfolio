@@ -2,8 +2,8 @@ window.onload = start;
 
 
 function start() {
-  typingEffectProject();
   fadeIn();
+  typingEffectProject();
   let scroll = new SmoothScroll('a[href*="#"]');
 }
 
@@ -39,7 +39,7 @@ const textArray = [
 ];
 const typingDelay = 100;
 const erasingDelay = 50;
-const newTextDelay = 1000;
+const newTextDelay = 800;
 let textArrayIndex = 0;
 let charIndex = 0;
 
