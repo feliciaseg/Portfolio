@@ -68,17 +68,17 @@
     font-size: 6rem;
   }
 
-  .project-wrapper {
-    max-width: 60rem;
-    height: 100%;
-    margin: 2rem;
+  .textbox {
+    padding-left: 4rem;
   }
 
-  
+  .textbox > h2 {
+    font-size: 3rem;
+  }
 
-
-
-
+  .textbox > p {
+    display: block;
+  }
 
   .contact-section {
     margin: 2rem;
